@@ -45,6 +45,8 @@ class Application extends BaseApplication
     {
         // Call parent to load bootstrap from files.
         parent::bootstrap();
+        // プラグインのロード
+        $this->addPlugin('Localized');// 追加
 
         if (PHP_SAPI === 'cli') {
             $this->bootstrapCli();

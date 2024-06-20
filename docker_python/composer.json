@@ -1,0 +1,10 @@
+{
+    "require": {
+        "cakephp/localized": "^2.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
